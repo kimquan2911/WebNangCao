@@ -51,7 +51,7 @@ $url = $_POST['url'];
         echo "<tr>";
         echo "<td><h2>".$row['title']."</h2></td>";
         echo "<td><p>".$row['content']."</p></td>";
-        echo "<td><img src='photo/".$row['image']."' height=100></td>";
+        echo "<td><img src='photo/".$row['image']."' height=100 width=100 ></td>";
         echo '<td><a href="posts_edit.php?id='.$row['id'].'">Edit</a></td> | <td><a href="posts_delete.php?id='.$row['id'].'">Delete</a></td>';
         echo "</tr>";
     }
